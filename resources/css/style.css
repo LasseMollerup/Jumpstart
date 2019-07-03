@@ -5,3 +5,31 @@ html {
   box-sizing: content-box;
 }
 
+  /*    Navigationbar   */
+#active {
+  color: hsla(201, 62%, 52%, 1);
+  background-color: inherit;
+}
+
+@media (max-width: 767px) {
+  #logo{
+    display: none; 
+  }
+}
+
+/*    Carousel Section */
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.btn-primary {
+
+}
+.btn-primary:active {
+
+}
+
+.btn-primary:hover {
+
+}
