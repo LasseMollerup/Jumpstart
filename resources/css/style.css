@@ -1,9 +1,10 @@
     /*   Universal Style    */
 html {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Monoton', cursive;
+  font-size: 14px;
   box-sizing: content-box;
 }
+
 
   /*    Navigationbar   */
 #active {
@@ -21,15 +22,28 @@ html {
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
+  justify-content: center;
 }
-
+.bike-content {
+  width: 51.3rem;
+  justify-self: center;
+}
+.bike-content h1 {
+  font-family: 'Monoton', cursive;
+  text-shadow: -1px -1px 0 hsla(360, 100%, 100%, 1),
+  1px -1px 0 hsla(360, 100%, 100%, 1), -1px 1px 0 hsla(360, 100%, 100%, 1), 1px 1px 0 hsla(360, 100%, 100%, 1);
+}
+.bike-content p {
+  color: hsla(360, 100%, 100%, 1);
+}
 .btn-primary {
+  transition: all 200ms linear;
 
 }
 .btn-primary:active {
-
+  box-shadow: 2px 2px hsla(360, 100%, 100%, 1), -2px -2px hsla(360, 100%, 100%, 1);
 }
 
 .btn-primary:hover {
-
+  top: 
 }
