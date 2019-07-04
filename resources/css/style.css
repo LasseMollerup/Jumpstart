@@ -25,13 +25,6 @@ html {
 }
 
 /*    Carousel Section */
-
-.jumbotron-bike {
-  background-image: url("../images/jumbotron-bike.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: inherit; 
-}
 .bike-content {
   width: 51.3rem;
   text-align: center;
@@ -61,4 +54,6 @@ html {
 .btn-primary:active {
   box-shadow: 0 0 0 hsla(0, 0%, 0%, 0.5);
 }
+
+/*    Featured Project   */
 
