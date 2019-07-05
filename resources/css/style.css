@@ -26,6 +26,7 @@ html {
 /*    Carousel Section */
 #slideshow {
  height: 42rem;
+ padding: 0;
 }
 #carousel1, #carousel2, #carousel3, #carousel4 {
   background-position: center center;
@@ -33,7 +34,7 @@ html {
   background-attachment: fixed;
   background-size: cover;  
   height: 42rem;
- 
+  margin-top: 3rem;
 }
 #carousel1 {
   background-image: url("../images/jumbotron-bike.jpg");
