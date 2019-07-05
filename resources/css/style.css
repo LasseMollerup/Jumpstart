@@ -25,10 +25,35 @@ html {
 }
 
 /*    Carousel Section */
+#slideshow {
+ height: 31rem;
+}
+#carousel1, #carousel2, #carousel3, #carousel4 {
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;  
+}
+#carousel2, #carousel3, #carousel4 {
+  margin: 0;
+}
+#carousel1 {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+#carousel2 {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+#carousel3 {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+#carousel4 {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
 .bike-content {
   width: 51.3rem;
   text-align: center;
-  margin: 11.85rem auto;
+  margin: 12rem auto;
+
 }
 .bike-content h1 {
   font-family: 'Monoton', cursive;
