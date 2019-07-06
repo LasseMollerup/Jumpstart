@@ -112,4 +112,40 @@ html {
   }
 }
 /*    Featured Project   */
+.featured-projects {
+  margin: 3rem auto 5.85rem auto;
+}
 
+.featured-h2 {
+  margin-top: 3rem;
+}
+.featured-projects .row h2 {
+  color: hsla(201, 62%, 52%, 1);
+  font-weight: bold;
+  font-size: 1.7rem;  
+  margin: 1.4rem;
+}
+.featured-projects .row h3 {
+  font-weight: bold;
+  font-size: 1.3rem;  
+}
+#product-categories {
+  color: hsla(201, 62%, 52%, 1);
+}
+
+/*    Footer    */
+footer {
+  text-align: center;
+  background-color: hsla(0, 0%, 95%, 1);
+}
+.trouble h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 5.2rem;
+}
+.trouble p {
+  margin: 1.4rem auto;
+}
+.trouble a {
+  margin-bottom: 5.2rem;
+}
