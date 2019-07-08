@@ -25,26 +25,19 @@ html {
 
 /*    Carousel Section */
 .jumbotron-bike {
-  height: 32rem;
-  border: 2px solid red;
-  margin-top: 8rem;
+  height: 40rem;
+  width: 100%;
+  margin-top: 3.8rem;
+  overflow: hidden;
 }
-
 #slideshow {
- border: 2px solid blue;
- height: 32rem;
- width: 100%;
-}
+  position: relative;
+  display: block;
+  
+  margin: 0;
+  padding: 0;
+ }
 
-#carousel1, #carousel2, #carousel3, #carousel4 {
-  background-position: center center;
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-  background-size: cover;  
-  border: 2px dotted green;
-  min-height: 32rem;
-  max-height: 32rem;
-}
 #carousel1 {
   background-image: url("../images/jumbotron-bike.jpg");
 }
@@ -57,12 +50,16 @@ html {
 #carousel4 {
   background-image: url("../images/jumbotron-duffel.jpg");
 }
-.bike-content {
-  height: auto;
-  width: 51.3rem;
+
+#carousel1, #carousel2, #carousel3, #carousel4 {
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-size: cover;  
+  height: 40rem;
   text-align: center;
-  border: 2px solid pink;
-  margin: 6rem;
+}
+.bike-content {
+  margin: 11.85rem auto;
 }
 .bike-content h1 {
   font-family: 'Monoton', cursive;
@@ -73,6 +70,7 @@ html {
 .bike-content p {
   color: hsla(360, 100%, 100%, 1);
 }
+
 .btn {
   width: 11.4rem;
   padding: 1.3rem 2rem;
