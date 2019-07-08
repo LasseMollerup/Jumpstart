@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#slideshow').slick({
       autoplay: true,
-      autospeed: 2000,
-      speed: 2000,
+      autospeed: 10000,
+      speed: 1000,
       arrows: false,
     });
   });

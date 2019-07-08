@@ -27,13 +27,13 @@ html {
 .jumbotron-bike {
   height: 40rem;
   width: 100%;
-  margin-top: 3.8rem;
+  margin-top: 3.7rem;
   overflow: hidden;
 }
 #slideshow {
   position: relative;
   display: block;
-  
+  overflow: hidden;
   margin: 0;
   padding: 0;
  }
@@ -55,14 +55,19 @@ html {
   background-position: center center;
   background-repeat: no-repeat; 
   background-size: cover;  
-  height: 40rem;
+  height: 100%;
   text-align: center;
+  border: 2px dotted darkmagenta;
+  overflow: hidden;
 }
+
 .bike-content {
   margin: 11.85rem auto;
+  border: 2px dotted red;
 }
 .bike-content h1 {
   font-family: 'Monoton', cursive;
+  letter-spacing: 0.2rem;
   font-size: 7.1rem;
   text-shadow: -1px -1px 0 hsla(360, 100%, 100%, 1),
   1px -1px 0 hsla(360, 100%, 100%, 1), -1px 1px 0 hsla(360, 100%, 100%, 1), 1px 1px 0 hsla(360, 100%, 100%, 1);
@@ -70,7 +75,6 @@ html {
 .bike-content p {
   color: hsla(360, 100%, 100%, 1);
 }
-
 .btn {
   width: 11.4rem;
   padding: 1.3rem 2rem;
@@ -88,37 +92,26 @@ html {
 }
 
 /*    @Media Queries    */
-@media only screen and (max-width: 730px) {
-  .bike-content {
-    width: 100%;
-    margin: 14rem auto 0 auto;
+@media only screen and (max-width: 970px) {
+  .bike-content h1 {
+    font-size: 6.1rem;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .bike-content h1 {
+    font-size: 5.1rem;
   }
   #carousel1 {
-    height: 37rem;
+    margin-top: -1.35rem;
   }
 }
 
-@media only screen and (max-width: 675px) {
-  #slideshow {
-    height: 37rem;
-   }
-   #carousel1, #carousel2, #carousel3, #carousel4 {
-     height: 37rem;
-   }
-  
-  .bike-content {
-    width: auto;
-    margin: 15rem auto 0 auto;
-  }
-  
+@media only screen and (max-width: 680px) {
   .bike-content h1 {
     font-size: 4.1rem;
-    text-shadow: -1px -1px 0 hsla(360, 100%, 100%, 1),
-    1px -1px 0 hsla(360, 100%, 100%, 1), -1px 1px 0 hsla(360, 100%, 100%, 1), 1px 1px 0 hsla(360, 100%, 100%, 1);
   }
-  .bike-content p {
-    color: hsla(360, 100%, 100%, 1);
-  }
+  
 }
 /*    Featured Project   */
 
