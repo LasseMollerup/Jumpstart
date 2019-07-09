@@ -1,5 +1,4 @@
-   /* https://bootstrapcreative.com/resources/bootstrap-4-css-classes-index/ */
-   
+
    /*   Universal Style    */
 html {
   font-family: 'Open Sans', sans-serif;
@@ -139,6 +138,7 @@ html {
   color: hsla(201, 62%, 52%, 1);
 }
 .image-container {
+  height: 19rem;
   overflow: hidden;
   border: 1px solid hsla(360, 100%, 100%, 1);
 }
