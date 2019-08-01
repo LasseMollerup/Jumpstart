@@ -18,7 +18,7 @@ html {
 
 @media (max-width: 767px) {
   #logo{
-    display: none; 
+    display: none;
   }
 }
 
@@ -52,8 +52,8 @@ html {
 
 #carousel1, #carousel2, #carousel3, #carousel4 {
   background-position: center center;
-  background-repeat: no-repeat; 
-  background-size: cover;  
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   text-align: center;
   overflow: hidden;
@@ -82,7 +82,7 @@ html {
   transition: all 200ms linear;
 }
 .btn-primary:hover {
-  box-shadow: 0 0 12px hsla(0, 0%, 0%, 0.9) 
+  box-shadow: 0 0 12px hsla(0, 0%, 0%, 0.9)
 }
 .btn-primary:active {
   box-shadow: 0 0 0 hsla(0, 0%, 0%, 0.5);
@@ -114,7 +114,7 @@ html {
   .bike-content h1 {
     font-size: 4.1rem;
   }
-  
+
 }
 /*    Featured Project   */
 
@@ -127,20 +127,22 @@ html {
 .featured-projects .row h2 {
   color: hsla(201, 62%, 52%, 1);
   font-weight: bold;
-  font-size: 1.7rem;  
+  font-size: 1.7rem;
   margin: 1.4rem;
 }
 .featured-projects .row h3 {
   font-weight: bold;
-  font-size: 1.3rem;  
+  font-size: 1.3rem;
 }
 #product-categories {
   color: hsla(201, 62%, 52%, 1);
 }
 .image-container {
-  height: 19rem;
+  height: auto;
   overflow: hidden;
   border: 1px solid hsla(360, 100%, 100%, 1);
+  margin-bottom: 2rem;
+
 }
 .image-container img {
   opacity: 0.7;
@@ -154,7 +156,9 @@ html {
 .img-hover img:hover {
   transform: scale(1.1);
   opacity: 1;
+  overflow: hidden;
 }
+
 
 /*    Footer    */
 footer {
